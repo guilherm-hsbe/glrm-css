@@ -41,6 +41,11 @@ input, button, textarea, select {
     font: inherit;
 }
 
+/* Remove list styles */
+ol, ul {
+    list-style: none;
+}
+
 /**
  * Reset images
  *
