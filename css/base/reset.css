@@ -46,6 +46,12 @@ ol, ul {
     list-style: none;
 }
 
+/* Set default table border/spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 /**
  * Reset images
  *
