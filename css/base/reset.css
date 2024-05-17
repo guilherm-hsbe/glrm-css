@@ -52,6 +52,11 @@ table {
     border-spacing: 0;
 }
 
+/* Remove default fieldset border */
+fieldset {
+    border: none;
+}
+
 /**
  * Reset images
  *
