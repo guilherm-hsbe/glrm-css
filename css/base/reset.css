@@ -30,3 +30,21 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, main, menu, nav, section {
     display: block;
 }
+
+/**
+ * Reset images
+ *
+ * Better used in conjunction 
+ * with a blurred low res
+ * version of the image for
+ * lazy loadings.
+ */
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 0.75rem;
+}
