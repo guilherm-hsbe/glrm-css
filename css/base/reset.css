@@ -36,6 +36,11 @@ body {
     line-height: 1.5;
 }
 
+/* Inherit fonts for form elements */
+input, button, textarea, select {
+    font: inherit;
+}
+
 /**
  * Reset images
  *
