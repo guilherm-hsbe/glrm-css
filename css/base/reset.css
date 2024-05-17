@@ -84,3 +84,9 @@ q::before, q::after {
     content: '';
     content: none;
 }
+
+/* Remove text decorations for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
