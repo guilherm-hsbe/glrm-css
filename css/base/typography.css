@@ -4,3 +4,8 @@
 .fw-medium {font-weight: 500;}
 .fw-bold {font-weight: 700;}
 .fw-black {font-weight: 900;}
+
+/* Text transform */
+.text-lower {text-transform: lowercase;}
+.text-upper {text-transform: uppercase;}
+.text-cap {text-transform: capitalize;}
