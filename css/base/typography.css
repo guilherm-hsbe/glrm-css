@@ -9,3 +9,8 @@
 .text-lower {text-transform: lowercase;}
 .text-upper {text-transform: uppercase;}
 .text-cap {text-transform: capitalize;}
+
+/* Text decoration */
+.text-decor-underline {text-decoration: underline;}
+.text-decor-line-through {text-decoration: line-through;}
+.text-decor-none {text-decoration: none;}
