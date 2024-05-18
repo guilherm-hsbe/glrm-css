@@ -76,13 +76,24 @@ fieldset {
  * lazy loadings.
  */
 img {
-    max-width: 100%;
     height: auto;
     vertical-align: middle;
     font-style: italic;
     background-repeat: no-repeat;
     background-size: cover;
     shape-margin: 0.75rem;
+}
+
+/**
+ * Reset media elements
+ *
+ * Media elements are layout elements.
+ * The display block setup ensures
+ * that these elements work in proper ways.
+ */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
 }
 
 /* Ensure consistent appearance for blockquote and q */
