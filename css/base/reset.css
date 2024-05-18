@@ -90,3 +90,12 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+/* Remove animations and transitions for reduced motion users */
+@media (prefers-reduced-motion: reduce) {
+* {
+    animation: none;
+    transition: none;
+    scroll-behavior: auto;
+  }
+}
