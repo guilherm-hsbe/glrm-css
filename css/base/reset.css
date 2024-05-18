@@ -31,9 +31,19 @@ footer, header, hgroup, main, menu, nav, section {
     display: block;
 }
 
-/* Normalize line-height */
+/**
+ * Typographic tweaks
+ *
+ * 1. Add accessible line-height. 
+ * 2. Improve text rendering:
+ *  On MacOS computers, the browser will use
+ *  “subpixel anti-aliasing” by default.
+ *  This aims to make text easier to read 
+ *  by leveraging the RGB lights within each pixel.
+ */
 body {
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
 }
 
 /* Inherit fonts for form elements */
