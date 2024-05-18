@@ -1,7 +1,7 @@
 /* Box sizing reset */
-*,
-*::before,
-*::after {box-sizing: border-box;}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 /* Remove default margin/padding; set default font; ensure baseline alignment */
 html, body, div, span, applet, object, iframe,
@@ -119,9 +119,9 @@ a {
 
 /* Remove animations and transitions for reduced motion users */
 @media (prefers-reduced-motion: reduce) {
-* {
-    animation: none;
-    transition: none;
-    scroll-behavior: auto;
-  }
+    * {
+        animation: none;
+        transition: none;
+        scroll-behavior: auto;
+    }
 }
